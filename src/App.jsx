@@ -3,6 +3,9 @@ import Navbar from "./component/Navbar"
 import SideBar from "./component/SideBar"
 import {FaBars} from 'react-icons/fa'
 import About from "./component/About"
+import './index.css'
+import Skills from "./component/Skills"
+
 
 
 
@@ -13,7 +16,7 @@ function App() {
   }
   return (
     <>
-    <div>
+    <div className="font-[Quicksand]">
       <Navbar/>
       <ul className='lg:hidden sm:block'>
           <li className='w-screen bg-pink-900 p-2'>
@@ -22,6 +25,7 @@ function App() {
       </ul>
       {isOpen && <SideBar handleClose={toggleIsOpen}/>}
       <About/>
+      <Skills/>
     </div>
     </>
   )
