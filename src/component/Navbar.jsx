@@ -2,7 +2,7 @@ import React from 'react'
 import { navObj } from './NavContent'
 import {FaBars} from 'react-icons/fa'
 
-const Navbar = () => {
+const Navbar = ({handleClose}) => {
   return (
     <>
         <div>
