@@ -5,7 +5,7 @@ import { navObj } from './NavContent'
 const Navbar = () => {
   return (
     <>
-        <div className='bg-pink-700 border border-pink-900'>
+        <div className='bg-pink-700 border border-pink-900 sticky top-0 z-[10]'>
             <nav className='flex justify-around'>
                 <ul className='hidden lg:block'>
                     <li className='flex justify-between border border-sky-700 border-2 py-3'>
