@@ -9,7 +9,7 @@ const Skills = () => {
             <div className='grid lg:grid-cols-6 justify-center items-center grid-cols-3 mx-2 gap-5 lg:ms-5'>
         {
             skills.map((item, index)=>(
-                <div key={index} className={`${item.bg} grid justify-center items-center py-4 rounded`}>
+                <div key={index} className={`${item.bg} grid justify-center items-center py-4 rounded hover:scale-110`}>
                     <div className={`${item.color} text-3xl mx-3`}>{item.icon}</div>
                     <div className={`${item.color} ${item.mx}`}>{item.title}</div>
                 </div>
@@ -19,6 +19,7 @@ const Skills = () => {
             </div>
         
          </div>
+         <hr />
     </>
   )
 }

@@ -11,7 +11,7 @@ const Navbar = () => {
                     <li className='flex justify-between border border-sky-700 border-2 py-3'>
                 {
                     navObj.map((items,index)=>(
-                    <div key={index} className='mx-10 text-sky-900 font-bold'>
+                    <div key={index} className='mx-10 text-white font-bold'>
                         {items.title}
                     </div>  
                     ))

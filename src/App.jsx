@@ -5,6 +5,7 @@ import {FaBars} from 'react-icons/fa'
 import About from "./component/About"
 import './index.css'
 import Skills from "./component/Skills"
+import Contact from "./component/Contact"
 
 
 
@@ -26,6 +27,7 @@ function App() {
       {isOpen && <SideBar handleClose={toggleIsOpen}/>}
       <About/>
       <Skills/>
+      <Contact/>
     </div>
     </>
   )

@@ -12,7 +12,7 @@ const SideBar = ({handleClose}) => {
             <div><AiOutlineClose className='float-right m-5 text-2xl text-sky-950' onClick={handleClose}/></div>
             {
                 navObj.map((items,index)=>( 
-                    <div key={index} className='pt-20  text-sky-950 text-center font-bold'>{items.title}</div>
+                    <div key={index} className='pt-20  text-white text-center font-bold'>{items.title}</div>
                 ))
             }
         </aside>
