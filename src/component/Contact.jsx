@@ -8,7 +8,7 @@ const Contact = () => {
     <>
         <div className='px-8'>
             <h1 className='mx-5 mt-5 text-xl text-white font-bold'><span className='me-2'>--------</span>Contact me</h1>
-            <section >
+            <section  data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 '>
                     <form action="" className='bg-sky-900 p-5'>
                         <div className='flex flex-col my-2'>

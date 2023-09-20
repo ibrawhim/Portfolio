@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Navbar from "./component/Navbar"
 import SideBar from "./component/SideBar"
 import {FaBars} from 'react-icons/fa'
@@ -7,11 +7,13 @@ import './index.css'
 import Skills from "./component/Skills"
 import Contact from "./component/Contact"
 import Project from "./component/Project"
-
-
+import Aos from "aos"
+import 'aos/dist/aos.css'
+import Services from "./component/Services"
 
 
 function App() {
+    
   const [isOpen, setIsOpen] = useState(false)
   const toggleIsOpen = () => {
     setIsOpen(!isOpen)
@@ -29,6 +31,7 @@ function App() {
       <About/>
       <Skills/>
       <Project/>
+      <Services/>
       <Contact/>
     </div>
     </>

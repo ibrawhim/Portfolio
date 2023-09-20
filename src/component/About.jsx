@@ -1,12 +1,39 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import amico from '../images/amico.png'
+import Aos from 'aos'
+import { TypeAnimation } from 'react-type-animation'
+
 
 const About = () => {
+    useEffect(() => {
+      Aos.init({
+        duration:3000
+      })
+    }, [])
+    
   return (
-    <div>
+    <div >
         <section className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 my-10 gap:10 mx-5'>
-            <div className='text-white font-[Quicksand]  lg:px-10 lg:py-10 '>
+            <div className='text-white font-[Quicksand]  lg:px-10 lg:py-10' data-aos="fade-up">
                 <h1 className='text-4xl'>Hi, I'm <span className='text-pink-700 font-bold'>Ibrahim</span>, <br /> a <span className='text-pink-700 font-semibold'>fullstack developer</span>.</h1>
+                <h2 className='text-3xl mt-2'>
+                    An expert in {" "}
+                    <TypeAnimation
+                        sequence={[
+                            "Javascript", 500,
+                            "React", 500,
+                            "CSS", 500,
+                            "Node JS", 500,
+                            "HTML", 500,
+                            "Firebase", 500,
+                            "Express", 500,
+                            "Mongo DB", 500,
+                            "Tailwind Css", 500,
+                        ]}
+                        style={{fontSize: "1em"}}
+                        repeat={Infinity}
+                    />
+                </h2>
                 <h6 className='my-3 text-xl font-bold'><span className='font-bold me-2'>--------</span>About me:</h6>
                 <p className='font-semibold mt-3 mb-5'>I am a passionate fullstack developer with a strong background in creating both dynamic and non-dynamic websites using advanced HTML, CSS, Javascript, Node js, and React. With a relentless commitment to excellence, I do not give up when  tackling challenges and finding innovative solutions. My skill set, joined with a love for continuous learning, allows me to triumph in dynamic environments and contribute to meaningful projects.</p>
                 <span>

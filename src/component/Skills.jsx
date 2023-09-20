@@ -6,7 +6,7 @@ const Skills = () => {
     <>
         <div className='py-10 px-10 my-10' >
             <h1 className='my-5 mx-5 text-white text-xl font-bold'><span className='me-2'>--------</span>Skills and Tools</h1>
-            <div className='grid lg:grid-cols-6 justify-center items-center grid-cols-3 mx-2 gap-5 lg:ms-5'>
+            <div data-aos="flip-right" className='grid lg:grid-cols-6 justify-center items-center grid-cols-3 mx-2 gap-5 lg:ms-5'>
         {
             skills.map((item, index)=>(
                 <div key={index} className={`${item.bg} grid justify-center items-center py-4 rounded hover:scale-110`}>
