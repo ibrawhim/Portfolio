@@ -21,9 +21,9 @@ function App() {
   }
   return (
     <>
-    <div className="font-[Quicksand] overflow-x-hidden">
+    <div className="font-[Quicksand]  overflow-x-hidden">
       <Navbar/>
-      <ul className='lg:hidden sm:block sticky top-0 z-[10000] '>
+      <ul className='lg:hidden sm:block fixed top-0 z-[10000] '>
           <li className='w-screen text-white bg-pink-900 p-3'>
               <FaBars onClick={toggleIsOpen}/>
           </li>
