@@ -42,7 +42,7 @@ const About = () => {
                 </span>
             </div>
             <div className='lg:ms-10 sm:py-10 px-10' data-aos="fade-down">
-                <img src={amico} width={400} alt="" />
+                <img className='img-fluid' src={amico} width={400} alt="" />
             </div>
         </section>
         <hr/>
