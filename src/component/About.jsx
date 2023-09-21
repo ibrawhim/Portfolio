@@ -41,7 +41,7 @@ const About = () => {
                     <a href="https://drive.google.com/file/d/1cnjU4Lq7zw3utvnDbZ7rmb6-5hVffaeN/view?usp=sharing" className='mx-5 border p-2 rounded bg-white text-pink-700  font-bold hover:bg-pink-700 hover:text-white'>Download CV</a>
                 </span>
             </div>
-            <div className='lg:ms-10 sm:py-10 px-10' data-aos="fade-down">
+            <div className='lg:ms-10 sm:py-10 px-10'>
                 <img className='img-fluid' src={amico} width={400} alt="" />
             </div>
         </section>
