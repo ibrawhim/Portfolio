@@ -10,6 +10,7 @@ import Project from "./component/Project"
 import Aos from "aos"
 import 'aos/dist/aos.css'
 import Services from "./component/Services"
+import Footer from "./component/Footer"
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
     <>
     <div className="font-[Quicksand]">
       <Navbar/>
-      <ul className='lg:hidden sm:block'>
+      <ul className='lg:hidden sm:block sticky top-0 z-[10000]'>
           <li className='w-screen bg-pink-900 p-2'>
               <FaBars onClick={toggleIsOpen}/>
           </li>
@@ -33,6 +34,7 @@ function App() {
       <Project/>
       <Services/>
       <Contact/>
+      <Footer/>
     </div>
     </>
   )

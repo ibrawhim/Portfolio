@@ -1,5 +1,6 @@
 import React from 'react'
 import { navObj } from './NavContent'
+import {Link} from 'react-scroll'
 
 
 const Navbar = () => {
@@ -11,9 +12,9 @@ const Navbar = () => {
                     <li className='flex justify-between border border-sky-700 border-2 py-3'>
                 {
                     navObj.map((items,index)=>(
-                    <div key={index} className='mx-10 text-white font-bold'>
-                        {items.title}
-                    </div>  
+                    <Link smooth to={items.link} key={index} className='cursor-pointer mx-10 text-white font-bold'>
+                        <div>{items.title}</div>
+                    </Link>  
                     ))
                 }
                     </li>

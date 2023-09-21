@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <>
         <div>
-            <section id='project'>
+            <section id='portfolio'>
                 <div className=' lg:grid-cols-1 text-white pt-3' data-aos="zoom-in">
                     {
                         project.map((items, index)=>(

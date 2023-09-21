@@ -13,7 +13,7 @@ const SideBar = ({handleClose}) => {
             <div><AiOutlineClose className='float-right m-5 text-2xl text-sky-950' onClick={handleClose}/></div>
             {
                 navObj.map((items,index)=>( 
-                  <Link key={index} to={items.link} onClick={handleClose}>
+                  <Link smooth key={index} to={items.link} onClick={handleClose}>
                           <div  className='pt-16 pb-4 cursor-pointer text-white text-center font-bold'>{items.title} <hr /></div>
                         </Link>
                 ))
