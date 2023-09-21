@@ -14,7 +14,7 @@ const About = () => {
     
   return (
     <div id='about'>
-        <section className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 my-20 gap:10 mx-5'>
+        <section className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mt-20 mb-10 gap:10 mx-5'>
             <div className='text-white font-[Quicksand]  lg:px-10 lg:py-10' data-aos="fade-up">
                 <h1 className='text-4xl'>Hi, I'm <span className='text-pink-700 font-bold'>Ibrahim</span>, <br /> a <span className='text-pink-700 font-semibold'>fullstack developer</span>.</h1>
                 <h2 className='text-3xl mt-2'>
