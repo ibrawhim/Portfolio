@@ -4,7 +4,7 @@ import { skills } from './SkillList'
 const Skills = () => {
   return (
     <>
-        <div className='py-10 px-10 my-10' >
+        <div className='py-10 px-10 my-10' id='skill' >
             <h1 className='my-5 mx-5 text-white text-xl font-bold'><span className='me-2'>--------</span>Skills and Tools</h1>
             <div data-aos="flip-right" className='grid lg:grid-cols-6 justify-center items-center grid-cols-3 mx-2 gap-5 lg:ms-5'>
         {

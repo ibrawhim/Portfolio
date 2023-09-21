@@ -5,8 +5,8 @@ const Project = () => {
   return (
     <>
         <div>
-            <section>
-                <div className=' lg:grid-cols-1 text-white py-3' data-aos="zoom-in">
+            <section id='project'>
+                <div className=' lg:grid-cols-1 text-white pt-3' data-aos="zoom-in">
                     {
                         project.map((items, index)=>(
                             <div key={index} className='lg:flex justify-between  shadow'  data-aos="zoom-in">

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { navObj } from './NavContent'
 import {AiOutlineClose} from "react-icons/ai"
+import {Link} from 'react-scroll'
 
 
 const SideBar = ({handleClose}) => {
@@ -12,7 +13,9 @@ const SideBar = ({handleClose}) => {
             <div><AiOutlineClose className='float-right m-5 text-2xl text-sky-950' onClick={handleClose}/></div>
             {
                 navObj.map((items,index)=>( 
-                    <div key={index} className='pt-16 pb-4  text-white text-center font-bold'>{items.title} <hr /></div>
+                  <Link key={index} to={items.link} onClick={handleClose}>
+                          <div  className='pt-16 pb-4 cursor-pointer text-white text-center font-bold'>{items.title} <hr /></div>
+                        </Link>
                 ))
             }
         </aside>

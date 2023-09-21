@@ -6,27 +6,27 @@ import {BiCodeAlt}  from 'react-icons/bi'
 export const navObj = [
     {
         title: 'About',
-        link: '#about',
+        link: 'about',
         icon: <CgProfile/>
     },
     {
         title: 'Contact',
-        link: '#contact',
+        link: 'contact',
         icon: <MdOutlineContactPhone/>
     },
     {
         title: 'Skills',
-        link: '#skills',
+        link: 'skills',
         icon: <GiSkills/>
     },
     {
         title: 'Portfolio',
-        link: '#portfolio',
+        link: 'portfolio',
         icon: <BiCodeAlt/>
     },
     {
         title: 'Services',
-        link: '#services',
+        link: 'services',
         icon: <BiCodeAlt/>
     },
 ]
