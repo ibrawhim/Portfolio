@@ -25,7 +25,7 @@ const Contact = () => {
             console.log(values.name);
             axios.post(endpoint,values)
             .then((result)=>{
-                console.log(result);
+                // console.log(result);
                 setSent(result.data.message)
             })
             .catch((error)=>{
