@@ -12,7 +12,7 @@ const Navbar = () => {
                     <li className='flex justify-between border border-sky-700 border-2 py-3'>
                 {
                     navObj.map((items,index)=>(
-                    <Link smooth to={items.link} key={index} className='cursor-pointer mx-10 text-white font-bold'>
+                    <Link smooth to={items.link} key={index} className='cursor-pointer px-2 mx-4 text-white font-bold hover:bg-white hover:text-pink-700 hover:rounded'>
                         <div>{items.title}</div>
                     </Link>  
                     ))
