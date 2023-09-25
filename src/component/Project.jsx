@@ -4,8 +4,8 @@ import { project } from './ProjectList'
 const Project = () => {
   return (
     <>
-        <div>
-            <section id='portfolio'>
+        <div id='portfolio'>
+            <section >
                 <div className='pt-5 text-2xl text-white font-bold mx-12'>
                     <h1><span className='me-2'>--------</span>My Projects</h1>
                 </div>

@@ -31,7 +31,7 @@ const Contact = () => {
             .catch((error)=>{
                 console.log(error);
             })
-            resetForm()
+            resetForm({values: ''})
         },
         validationSchema: Yup.object({
             name: Yup.string().required('This field is empty'),
@@ -53,22 +53,22 @@ const Contact = () => {
                     <form action='' onSubmit={formik.handleSubmit}  className='bg-sky-900 p-5'>
                         <div className='flex flex-col'>
                             <label htmlFor="name" className='text-white font-bold'>Name:</label>
-                            <input className='py-1 rounded' name='name' type="text" onChange={formik.handleChange} onBlur={formik.handleBlur} />
+                            <input className='py-1 rounded' name='name' type="text" onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.name}/>
                             <small className="text-red-500 font-bold">{formik.touched.name && formik.errors.name}</small>
                         </div>
                         <div className='flex flex-col'>
                             <label htmlFor="email" className='text-white font-bold'>Email:</label>
-                            <input className='py-1 rounded' name='email' type="text" onChange={formik.handleChange}  onBlur={formik.handleBlur}/>
+                            <input className='py-1 rounded' name='email' type="text" onChange={formik.handleChange}  onBlur={formik.handleBlur} value={formik.values.email}/>
                             <small className="text-red-500 font-bold">{formik.touched.email && formik.errors.email}</small>
                         </div>
                         <div className='flex flex-col'>
                             <label htmlFor="company" className='text-white font-bold'>Company:</label>
-                            <input className='py-1 rounded' name='company' type="text" onChange={formik.handleChange}  onBlur={formik.handleBlur}/>
+                            <input className='py-1 rounded' name='company' type="text" onChange={formik.handleChange}  onBlur={formik.handleBlur} value={formik.values.company}/>
                             <small className="text-red-500 font-bold">{formik.touched.company && formik.errors.company}</small>
                         </div>
                         <div className='flex flex-col'>
                             <label htmlFor="message" className='text-white font-bold'>Message:</label>
-                            <textarea className='rounded' name="message" id="" cols="30" rows="5" onChange={formik.handleChange} onBlur={formik.handleBlur} ></textarea>
+                            <textarea className='rounded' name="message" id="" cols="30" rows="5" onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.message} ></textarea>
                             <small className="text-red-500 font-bold">{formik.touched.message && formik.errors.message}</small>
                         </div>
                         <div className='flex flex-col my-2'>
