@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <>
         <div className='my-0' id='services'>
-            <section data-aos="fade-left">
+            <section data-aos="zoom-out">
                 <div className='grid lg:grid-cols-2'>
                     <div className='bg-pink-700 px-8 py-10'>
                         <h1 className='text-2xl text-sky-900 font-bold my-6'><span className='me-2'>--------</span>Services</h1>
