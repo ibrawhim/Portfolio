@@ -1,10 +1,12 @@
 import axios from 'axios'
-import { useFormik } from 'formik'
+import { ErrorMessage, Field, Form, useFormik } from 'formik'
 import React, { useState } from 'react'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {RiTwitterXFill} from 'react-icons/ri'
 import {SiLinkedin} from 'react-icons/si'
 import * as Yup from 'yup'
+
+
 
 
 const Contact = () => {
@@ -18,16 +20,17 @@ const Contact = () => {
             company: '',
             message: ''
         },
-        onSubmit: (values) => {
+        onSubmit: (values, { resetForm }) => {
             console.log(values.name);
             axios.post(endpoint,values)
-            .then(()=>{
+            .then((result)=>{
                 console.log(result);
-                setSent('Message received. Thanks for checking my portfolio')
+                setSent(result.data.message)
             })
             .catch((error)=>{
                 console.log(error);
             })
+            resetForm()
         },
         validationSchema: Yup.object({
             name: Yup.string().required('This field is empty'),
@@ -44,7 +47,7 @@ const Contact = () => {
         <div className='px-8' id='contact' data-aos="flip-up">
             <h1 className='mx-5 mt-5 text-xl text-white font-bold'><span className='me-2'>--------</span>Contact me</h1>
             <section  data-aos-anchor-placement="center-bottom">
-                <div className='text-5xl font-bold text-red-500'>{sent}</div>
+                <div className='text-2xl text-center font-bold text-red-500 animate_animated animate__heartBeat'>{sent}</div>
                 <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 '>
                     <form action='' onSubmit={formik.handleSubmit}  className='bg-sky-900 p-5'>
                         <div className='flex flex-col my-2'>
