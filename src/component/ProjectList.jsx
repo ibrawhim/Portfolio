@@ -1,5 +1,14 @@
 export const project = [
     {
+        name: 'Anonymous Message App',
+        info: 'This enables user to send their anonymous message link to users so they can receive message anonymously from people without knowing or finding out the sender',
+        tools: 'HTML, CSS, Bootstrap and Javascript.',
+        img: '/new.jpg',
+        link: 'https://regal-dasik-41ecda.netlify.app/',
+        bg: 'bg-white',
+        color: 'text-pink-700',
+    },
+    {
         name: 'E-commerce',
         info: 'This is an e-commerce app. It enables users to select different items and add to cart.the Idea is from Jumia e-commerce app',
         tools: 'HTML, CSS, Bootstrap and Javascript.',
