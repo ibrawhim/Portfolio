@@ -16,9 +16,12 @@ import Footer from "./component/Footer"
 function App() {
     
   const [isOpen, setIsOpen] = useState(false)
+
+  
   const toggleIsOpen = () => {
     setIsOpen(!isOpen)
   }
+  
   return (
     <>
     <div className="font-[Quicksand]  overflow-x-hidden">

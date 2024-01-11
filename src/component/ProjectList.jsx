@@ -9,11 +9,11 @@ export const project = [
         color: 'text-pink-700',
     },
     {
-        name: 'E-commerce',
-        info: 'This is an e-commerce app. It enables users to select different items and add to cart.the Idea is from Jumia e-commerce app',
-        tools: 'HTML, CSS, Bootstrap and Javascript.',
-        img: '/download.jpg',
-        link: 'https://e-commerce-ruddy-nine.vercel.app/',
+        name: 'movie-app',
+        info: 'This is an e-commerce app. It enables users to check new released and unreleased genres of movies',
+        tools: 'HTML, CSS, Tailwind and React.',
+        img: '/cloud.jpg',
+        link: 'https://ibrahim-movie-app.netlify.app/',
         color: 'text-white',
         bg: 'bg-pink-700'
     },
