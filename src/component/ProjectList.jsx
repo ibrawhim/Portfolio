@@ -10,7 +10,7 @@ export const project = [
     },
     {
         name: 'movie-app',
-        info: 'This is an e-commerce app. It enables users to check new released and unreleased genres of movies',
+        info: 'This is an movie app. It enables users to check new released and unreleased genres of movies',
         tools: 'HTML, CSS, Tailwind and React.',
         img: '/cloud.jpg',
         link: 'https://ibrahim-movie-app.netlify.app/',
