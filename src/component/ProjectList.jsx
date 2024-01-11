@@ -1,19 +1,19 @@
 export const project = [
     {
-        name: 'Real-Estate app ',
-        info: 'This is a real estate website where people can discover new and suitable places to own or rent an apartment in Ibadan, Oyo State, Nigeria ',
-        tools: 'HTML, CSS, Tailwind, React and Nodejs.',
-        img: '/ibad.jpeg',
-        link: 'https://yemreality.netlify.app/',
-        color: 'text-white',
-        bg: 'bg-pink-700'
-    },
-    {
         name: 'Movie-app',
         info: 'This is an movie app. It enables users to check new released and unreleased genres of movies',
         tools: 'HTML, CSS, Tailwind and React.',
         img: '/cloud.png',
         link: 'https://ibrahim-movie-app.netlify.app/',
+        color: 'text-white',
+        bg: 'bg-pink-700'
+    },
+    {
+        name: 'Real-Estate app ',
+        info: 'This is a real estate website where people can discover new and suitable places to own or rent an apartment in Ibadan, Oyo State, Nigeria.  (Uncompleted) ',
+        tools: 'HTML, CSS, Tailwind, React and Nodejs.',
+        img: '/ibad.jpeg',
+        link: 'https://yemreality.netlify.app/',
         color: 'text-white',
         bg: 'bg-pink-700'
     },
