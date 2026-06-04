@@ -22,7 +22,7 @@ export const project = [
         info: 'This enables user to send their anonymous message link to users so they can receive message anonymously from people without knowing or finding out the sender',
         tools: 'HTML, CSS, Bootstrap and Javascript.',
         img: '/new.jpg',
-        link: 'https://regal-dasik-41ecda.netlify.app/',
+        link: 'https://https://anonymous-app1.netlify.app/',
         bg: 'bg-white',
         color: 'text-pink-700',
     },
@@ -49,7 +49,7 @@ export const project = [
         info: 'This enables users to search and learn meanings of different english words',
         tools: 'React and Tailwind',
         img: '/logo.png',
-        link: 'https://aesthetic-starship-78fcc7.netlify.app/',
+        link: 'https://https://check-dictionary.netlify.app/',
         bg: 'bg-white',
         color: 'text-pink-700'
     }
