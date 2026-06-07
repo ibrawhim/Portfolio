@@ -1,57 +1,50 @@
 export const project = [
-    {
-        name: 'Movie-app',
-        info: 'This is an movie app. It enables users to check new released and unreleased genres of movies',
-        tools: 'HTML, CSS, Tailwind and React.',
-        img: '/cloud.png',
-        link: 'https://ibrahim-movie-app.netlify.app/',
-        color: 'text-white',
-        bg: 'bg-pink-700'
-    },
-    {
-        name: 'Real-Estate app ',
-        info: 'This is a real estate website where people can discover new and suitable places to own or rent an apartment in Ibadan, Oyo State, Nigeria.  (Uncompleted) ',
-        tools: 'HTML, CSS, Tailwind, React and Nodejs.',
-        img: '/ibad.jpeg',
-        link: 'https://yemreality.netlify.app/',
-        color: 'text-white',
-        bg: 'bg-pink-700'
-    },
-    {
-        name: 'Anonymous Message App',
-        info: 'This enables user to send their anonymous message link to users so they can receive message anonymously from people without knowing or finding out the sender',
-        tools: 'HTML, CSS, Bootstrap and Javascript.',
-        img: '/new.jpg',
-        link: 'https://https://anonymous-app1.netlify.app/',
-        bg: 'bg-white',
-        color: 'text-pink-700',
-    },
-    {
-        name: 'School Portal',
-        info: 'A school portal where student can sign-up, have a personal matric number and check out their various dashboards',
-        tools: 'React, Taiwind, Node js, Express and MongoDB',
-        img: '/fully.jpg',
-        link: 'https://timely-conkies-c49131.netlify.app/',
-        bg: 'bg-white',
-        color: 'text-pink-700'
-    },
-    {
-        name: 'Game-Plan',
-        info: 'A Gameplan form, where users can select different gameplans and make a subscription after',
-        tools: 'HTML, CSS, Tailwind and  React ',
-        img: '/game.jpeg',
-        link: 'https://game-plan.netlify.app/',
-        color: 'text-white',
-        bg: 'bg-pink-700'
-    },
-    {
-        name: 'Dictionary',
-        info: 'This enables users to search and learn meanings of different english words',
-        tools: 'React and Tailwind',
-        img: '/logo.png',
-        link: 'https://https://check-dictionary.netlify.app/',
-        bg: 'bg-white',
-        color: 'text-pink-700'
-    }
-
+  {
+    name: 'Movie App',
+    info: 'Enables users to discover new releases and browse movies by genre with a clean, fast UI.',
+    tools: ['React', 'Tailwind', 'HTML', 'CSS'],
+    img: '/cloud.png',
+    link: 'https://ibrahim-movie-app.netlify.app/',
+    tag: 'Frontend',
+  },
+  {
+    name: 'Real Estate App',
+    info: 'Discover and explore apartments to own or rent in Ibadan, Oyo State, Nigeria.',
+    tools: ['React', 'Node.js', 'Tailwind'],
+    img: '/ibad.jpeg',
+    link: 'https://yemreality.netlify.app/',
+    tag: 'Fullstack',
+  },
+  {
+    name: 'Anonymous Message App',
+    info: 'Send anonymous message links so recipients can collect messages without knowing the sender.',
+    tools: ['JavaScript', 'Bootstrap', 'HTML'],
+    img: '/new.jpg',
+    link: 'https://regal-dasik-41ecda.netlify.app/',
+    tag: 'Frontend',
+  },
+  {
+    name: 'School Portal',
+    info: 'Students can sign up, receive a unique matric number, and access personalised dashboards.',
+    tools: ['React', 'Tailwind', 'Node.js', 'MongoDB'],
+    img: '/fully.jpg',
+    link: 'https://timely-conkies-c49131.netlify.app/',
+    tag: 'Fullstack',
+  },
+  {
+    name: 'Game Plan',
+    info: 'Users select game plans and subscribe to their preferred tier in a polished UI.',
+    tools: ['React', 'Tailwind'],
+    img: '/game.jpeg',
+    link: 'https://game-plan.netlify.app/',
+    tag: 'Frontend',
+  },
+  {
+    name: 'Dictionary',
+    info: 'Look up definitions of English words with a clean search interface.',
+    tools: ['React', 'Tailwind'],
+    img: '/logo.png',
+    link: 'https://aesthetic-starship-78fcc7.netlify.app/',
+    tag: 'Frontend',
+  },
 ]

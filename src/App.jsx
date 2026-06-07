@@ -1,45 +1,30 @@
-import { useEffect, useState } from "react"
-import Navbar from "./component/Navbar"
-import SideBar from "./component/SideBar"
-import {FaBars} from 'react-icons/fa'
-import About from "./component/About"
-import './index.css'
-import Skills from "./component/Skills"
-import Contact from "./component/Contact"
-import Project from "./component/Project"
-import Aos from "aos"
+import { useEffect } from 'react'
+import Navbar from './component/Navbar'
+import About from './component/About'
+import Skills from './component/Skills'
+import Project from './component/Project'
+import Services from './component/Services'
+import Contact from './component/Contact'
+import Footer from './component/Footer'
+import Aos from 'aos'
 import 'aos/dist/aos.css'
-import Services from "./component/Services"
-import Footer from "./component/Footer"
-
+import './index.css'
 
 function App() {
-    
-  const [isOpen, setIsOpen] = useState(false)
+  useEffect(() => {
+    Aos.init({ duration: 900, once: true, easing: 'ease-out-cubic' })
+  }, [])
 
-  
-  const toggleIsOpen = () => {
-    setIsOpen(!isOpen)
-  }
-  
   return (
-    <>
-    <div className="font-[Quicksand]  overflow-x-hidden">
-      <Navbar/>
-      <ul className='lg:hidden sm:block fixed top-0 z-[10000] '>
-          <li className='w-screen text-white bg-pink-900 p-3'>
-              <FaBars onClick={toggleIsOpen}/>
-          </li>
-      </ul>
-      {isOpen && <SideBar handleClose={toggleIsOpen}/>}
-      <About/>
-      <Skills/>
-      <Project/>
-      <Services/>
-      <Contact/>
-      <Footer/>
+    <div className='font-[Quicksand] overflow-x-hidden bg-[#080808]'>
+      <Navbar />
+      <About />
+      <Skills />
+      <Project />
+      <Services />
+      <Contact />
+      <Footer />
     </div>
-    </>
   )
 }
 
