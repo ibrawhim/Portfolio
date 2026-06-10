@@ -24,7 +24,7 @@ export const project = [
     tag: 'Frontend',
   },
   {
-    name: 'School Portals',
+    name: 'School Portal',
     info: 'Students can sign up, receive a unique matric number, and access personalised dashboards.',
     tools: ['React', 'Tailwind', 'Node.js', 'MongoDB'],
     img: '/fully.jpg',
