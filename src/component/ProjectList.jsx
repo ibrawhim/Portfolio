@@ -1,7 +1,7 @@
 export const project = [
   {
     name: 'Movie App',
-    info: 'Enables users to discover new releases and browse movies by genre with a clean, fast UI.',
+    info: 'Enables users to discover new releases and browse movies by genre with a clean, fast UI..',
     tools: ['React', 'Tailwind', 'HTML', 'CSS'],
     img: '/cloud.png',
     link: 'https://ibrahim-movie-app.netlify.app/',
