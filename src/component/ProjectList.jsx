@@ -24,22 +24,6 @@ export const project = [
     tag: 'Frontend',
   },
   {
-    name: 'School Portal',
-    info: 'Students can sign up, receive a unique matric number, and access personalised dashboards.',
-    tools: ['React', 'Tailwind', 'Node.js', 'MongoDB'],
-    img: '/fully.png',
-    link: 'https://timely-conkies-c49131.netlify.app/',
-    tag: 'Fullstack',
-  },
-  {
-    name: 'Game Plan',
-    info: 'Users select game plans and subscribe to their preferred tier in a polished UI.',
-    tools: ['React', 'Tailwind'],
-    img: '/game.jpeg',
-    link: 'https://game-plan.netlify.app/',
-    tag: 'Frontend',
-  },
-  {
     name: 'Dictionary',
     info: 'Look up definitions of English words with a clean search interface.',
     tools: ['React', 'Tailwind'],
