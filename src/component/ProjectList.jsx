@@ -16,7 +16,7 @@ export const project = [
     tag: 'Fullstack',
   },
   {
-    name: 'Anonymous Message App',
+    name: 'Anonymous Message App.',
     info: 'Send anonymous message links so recipients can collect messages without knowing the sender.',
     tools: ['JavaScript', 'Bootstrap', 'HTML'],
     img: '/new.png',
