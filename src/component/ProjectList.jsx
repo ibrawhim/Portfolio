@@ -20,7 +20,7 @@ export const project = [
     info: 'Send anonymous message links so recipients can collect messages without knowing the sender.',
     tools: ['JavaScript', 'Bootstrap', 'HTML'],
     img: '/new.png',
-    link: 'https://regal-dasik-41ecda.netlify.app/',
+    link: 'https://anonymous-app1.netlify.app/',
     tag: 'Frontend',
   },
   {
@@ -44,7 +44,7 @@ export const project = [
     info: 'Look up definitions of English words with a clean search interface.',
     tools: ['React', 'Tailwind'],
     img: '/logo.png',
-    link: 'https://aesthetic-starship-78fcc7.netlify.app/',
+    link: 'https://check-dictionary.netlify.app/',
     tag: 'Frontend',
   },
 ]
