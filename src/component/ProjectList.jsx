@@ -16,6 +16,14 @@ export const project = [
     tag: 'Fullstack',
   },
   {
+    name: 'E-commerce App',
+    info:' Your trusted destination for affordable shopping and premium everyday essentials.',
+    tools: ['React', 'Node.js', 'Tailwind'],
+    img: '/ibad.jpeg',
+    link: 'https://enaijacommerce.web.app/',
+    tag: 'Fullstack',
+  },
+  {
     name: 'Anonymous Message App.',
     info: 'Send anonymous message links so recipients can collect messages without knowing the sender.',
     tools: ['JavaScript', 'Bootstrap', 'HTML'],
