@@ -20,7 +20,7 @@ export const project = [
     info:' Your trusted destination for affordable shopping and premium everyday essentials.',
     tools: ['React', 'Node.js', 'Tailwind'],
     img: './gemini.png',
-    link: 'https://enaijacommerce.web.app/',
+    link: 'https://enaijaacommerce.onrender.com/',
     tag: 'Fullstack',
   },
   {
